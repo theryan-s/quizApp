@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.591), rgba(223, 223, 223, 0.577)), url("./images/quiz.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #070505;
+}    
+
+* {
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+}
+
+button{
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+    padding: 1rem 5rem;
+}
+
